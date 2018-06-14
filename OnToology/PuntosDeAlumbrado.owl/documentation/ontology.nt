@@ -1,0 +1,201 @@
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/0.1> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/elements/1.1/contributor> "Oscar Corcho (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid, LocaliData)" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/elements/1.1/contributor> "Ra\u00FAl Garc\u00EDa (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid)" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/elements/1.1/creator> "Mar\u00EDa Poveda (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid)" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/terms/description> "Vocabulario para la representaci\u00F3n de puntos de alumbrado"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico.html> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico.owl> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/terms/issued> "2016-03-05"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/dc/terms/title> "Vocabulario para la representaci\u00F3n de puntos de alumbrado"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/vocab/vann/preferredNamespacePrefix> "esalum" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico\"" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulario para la representaci\u00F3n de puntos de alumbrado" .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico> <http://www.w3.org/2002/07/owl#versionInfo> "Versi\u00F3n inicial de una ontolog\u00EDa para describir los puntos de alumbrado p\u00FAblico."@es .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#comment
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#time
+<http://www.w3.org/2001/XMLSchema#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#contieneMaterial
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#contieneMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#contieneMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#contieneMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#contieneMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "contieneMaterial"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/TR/skos-reference#Concept> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaci\u00F3n entre el punto de alumbrado y el tipo de luz que emite que se representa mediante un Concept SKOS."@es .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz> <http://www.w3.org/2000/01/rdf-schema#label> "emiteTipoDeLuz"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/infraestructuras/localizacion#Municipio> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio> <http://www.w3.org/2000/01/rdf-schema#label> "situado en municipio"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/TR/skos-reference#Concept> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaci\u00F3n entre el punto de alumbrado y el tipo de l\u00E1mpara que utiliza que se representa mediante un Concept SKOS."@es .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara> <http://www.w3.org/2000/01/rdf-schema#label> "tieneTipoDeLampara"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#altura
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#altura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#altura> <http://www.w3.org/2000/01/rdf-schema#label> "altura"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroCircuitos
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroCircuitos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroCircuitos> <http://www.w3.org/2000/01/rdf-schema#label> "numero circuitos"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroPuntosDeLuz
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroPuntosDeLuz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroPuntosDeLuz> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de puntos de luz"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroPuntosDeLuz> <http://www.w3.org/2000/01/rdf-schema#label> "puntos de luz"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#potencia
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#potencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#potencia> <http://www.w3.org/2000/01/rdf-schema#comment> "Potencia medida en watios."@es .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#potencia> <http://www.w3.org/2000/01/rdf-schema#label> "potencia"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#proteccion
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#proteccion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#proteccion> <http://www.w3.org/2000/01/rdf-schema#label> "protecci\u00F3n"@es .
+# 
+# http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#label> "latitud coordenada"@es .
+# 
+# http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#label> "longitud coordenada"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/ctic/infraestructuras/localizacion#Municipio
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/2000/01/rdf-schema#comment> "Entidad local formada por los vecinos de un determinado territorio para gestionar aut\u00F3nomamente sus intereses comunes. (RAE)"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/2000/01/rdf-schema#label> "Municipio"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
+# 
+# http://www.w3.org/TR/skos-reference#Concept
+<http://www.w3.org/TR/skos-reference#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialAl
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialAl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialAl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialAl> <http://www.w3.org/2000/01/rdf-schema#label> "materialAl"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialF
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialF> <http://www.w3.org/2000/01/rdf-schema#label> "materialF"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFi
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFi> <http://www.w3.org/2000/01/rdf-schema#label> "materialFi"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFr
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFr> <http://www.w3.org/2000/01/rdf-schema#label> "materialFr"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialO
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialO> <http://www.w3.org/2000/01/rdf-schema#label> "materialO"@en .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialP
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialP> <http://www.w3.org/2000/01/rdf-schema#label> "materialP"@en .
+# 
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
+_:genid2 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

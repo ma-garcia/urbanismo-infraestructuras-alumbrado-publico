@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#"
+     xml:base="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico">
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/0.1"/>
+        <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raúl García (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">María Poveda (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico</dc:identifier>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
+        <terms:description xml:lang="es">Vocabulario para la representación de puntos de alumbrado</terms:description>
+        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico.html"/>
+        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico.owl"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-05</terms:issued>
+        <terms:title xml:lang="es">Vocabulario para la representación de puntos de alumbrado</terms:title>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esalum</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico&quot;</vann:preferredNamespaceUri>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vocabulario para la representación de puntos de alumbrado</rdfs:comment>
+        <owl:versionInfo xml:lang="es">Versión inicial de una ontología para describir los puntos de alumbrado público.</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#contieneMaterial -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#contieneMaterial">
+        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado"/>
+        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material"/>
+        <rdfs:label xml:lang="en">contieneMaterial</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#emiteTipoDeLuz">
+        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/TR/skos-reference#Concept"/>
+        <rdfs:comment xml:lang="es">Relación entre el punto de alumbrado y el tipo de luz que emite que se representa mediante un Concept SKOS.</rdfs:comment>
+        <rdfs:label xml:lang="en">emiteTipoDeLuz</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#situadoEnMunicipio">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado"/>
+        <rdfs:range rdf:resource="http://purl.org/ctic/infraestructuras/localizacion#Municipio"/>
+        <rdfs:label xml:lang="es">situado en municipio</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#tieneTipoDeLampara">
+        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/TR/skos-reference#Concept"/>
+        <rdfs:comment xml:lang="es">Relación entre el punto de alumbrado y el tipo de lámpara que utiliza que se representa mediante un Concept SKOS.</rdfs:comment>
+        <rdfs:label xml:lang="en">tieneTipoDeLampara</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#altura -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#altura">
+        <rdfs:label xml:lang="en">altura</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroCircuitos -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroCircuitos">
+        <rdfs:label xml:lang="es">numero circuitos</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroPuntosDeLuz -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#numeroPuntosDeLuz">
+        <rdfs:comment xml:lang="es">Número de puntos de luz</rdfs:comment>
+        <rdfs:label xml:lang="es">puntos de luz</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#potencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#potencia">
+        <rdfs:comment xml:lang="es">Potencia medida en watios.</rdfs:comment>
+        <rdfs:label xml:lang="es">potencia</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#proteccion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#proteccion">
+        <rdfs:label xml:lang="es">protección</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <rdfs:label xml:lang="es">latitud coordenada</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <rdfs:label xml:lang="es">longitud coordenada</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/ctic/infraestructuras/localizacion#Municipio -->
+
+
+    <owl:Class rdf:about="http://purl.org/ctic/infraestructuras/localizacion#Municipio">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="es">Entidad local formada por los vecinos de un determinado territorio para gestionar autónomamente sus intereses comunes. (RAE)</rdfs:comment>
+        <rdfs:label xml:lang="es">Municipio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado -->
+
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material -->
+
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material">
+        <rdfs:label xml:lang="en">Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/TR/skos-reference#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/TR/skos-reference#Concept"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialAl -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialAl">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material"/>
+        <rdfs:label xml:lang="en">materialAl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialF -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialF">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material"/>
+        <rdfs:label xml:lang="en">materialF</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFi -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFi">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material"/>
+        <rdfs:label xml:lang="en">materialFi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFr -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialFr">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material"/>
+        <rdfs:label xml:lang="en">materialFr</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialO -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialO">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material"/>
+        <rdfs:label xml:lang="en">materialO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialP -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#materialP">
+        <rdf:type rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico#Material"/>
+        <rdfs:label xml:lang="en">materialP</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDF</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTML</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+
